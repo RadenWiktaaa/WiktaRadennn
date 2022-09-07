@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+    
+    body {
+     background-color:aqua;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: blue;
+    }
+
+    nav {
+     margin:auto;
+     text-align: center;
+     width: 100%;
+    } 
+
+    nav ul ul {
+     display: none;
+    }
+
+    nav ul li:hover > ul{
+    display: block;
+    width: 150px;
+
+    }
+
+    nav ul {
+     background: #53bd84;
+     padding: 0 20px;
+     list-style: none;
+     position: relative;
+     display: inline-table;
+     width: 100%;
+    }
+
+    nav ul:after {
+     content: ""; 
+     clear:both; 
+     display: block;
+    }
+
+    nav ul li{
+     float:left;
+    }
+
+    nav ul li:hover{
+     background:#666;
+    }
+
+    nav ul li:hover a{
+     color:#fff;
+    }
+
+    nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+    }
+
+    nav ul ul{
+     background: #53bd84;
+     border-radius: 0px;
+     padding: 0;
+     position: absolute;
+     top:100%;
+    }
+
+    nav ul ul li{
+     float:none;
+     border-top: 1px soild #53bd84;
+     border-bottom: 1px solid #53bd84;
+     position: relative;
+    }
+
+    nav ul ul li a{
+     padding: 15px 40px;
+     color: #fff;
+    }
+
+    nav ul ul li a:hover{
+     background-color: #666;
+    }
+
+    nav ul ul ul{
+     position: absolute;
+     left: 100%;
+     top: 0;
+    }
+
+    img {
+        width: 300px;
+        position:static;
+    }
+
+    footer {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        background-color:#666;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    
+    <ul>
+        <li><a href="#">Home</a>
+        <ul>
+            <li><a href="hero.png">Anggota</a></li>
+            <li><a href="#">Buku</a></li>
+            <li><a href="#">Kategori Buku</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Input</a>
+        <ul>
+            <li><a href="#">Masukkan data</a></li>
+            <li><a href="#">data anda</a></li>
+        </ul> 
+        </li>
+         <li><a href="#">Transaksi</a>
+         	<ul>
+             	<li><a href="#">Peminjaman</a></li>
+             	<li><a href="#">Pengembalian</a></li>
+         	</ul>
+        </li>
+        <li><a href="#">About</a>
+            <ul>
+                <li><a href="#">Pengaturan</a></li>
+                <li><a href="#">kontrol</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<!-- image -->
+<div class="img">
+    <img src="AI1.jpg" class="image" alt="foto error">
+</div>
+
+<!-- footer -->
+<section id="footer">
+  
+    <footer>Terima Kasih Telah Berkunjung Ke Halaman Website Kami</footer>
+  
+</section>
+
+</body>
+</head>
+    
+
+
+
+<!-- LIST -->
+<!-- <h1>Menu Sarapan</h1>
+
+<ol type="A">
+    <li>Sari Roti</li>
+    <li>Nasi Goreng</li>
+    <li>Nasi Kuning</li>
+</ol>
+
+
+<h2>Daily Activity</h2>
+
+<ul>
+    <li>Saya akan mandi pada jam 7 pagi</li>
+    <li>Lalu saya akan sarapan pada jam 8</li>
+    <li>Kemudian saya akan pergi kuliah sesudah sarapan</li>
+</ul> -->
+<!-- AKHIR LIST -->
+
+<!-- IMAGE -->
+<!-- <img src="hero.png" width="200" title="gambar anak anjing" alt="hero">
+<a href="">
+    <img src="hero.png">
+</a> -->
+<!-- DAN IMAGE HYPERLINK -->
+
+<!-- DEFINITION LIST -->
+<!-- <dl>
+    <dt>HTML</dt>
+    <dd><em> hypertext markup language</em></dd>
+    <dt>CSS</dt>
+    <dd>cascarding stylesheet</dd>
+</dl> -->
+<!-- AKHIR DEFINITION LIST -->
+
+<!-- TABEL -->
+<!-- <table border="1" cellspacing="5" cellpadding="0">
+    <thead>
+        <tr>
+            <th>EX</th>
+            <th>Kolom 1</th>
+            <th>Kolom 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Baris 1</th>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+        </tr>
+        <tr>
+            <th>Baris 2</th>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+        </tr>
+    </tbody>
+</table> -->
+<!-- AKHIR TABEL -->
+
+<!-- TABLE MERGING -->
+<!-- <table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td rowspan="3">rowspan 3</td>
+    <td colspan="2">colspan 2</td>
+  </tr>
+  <tr> 
+    <td>2,2</td>  
+    <td>2,3</td>  
+  </tr>
+  <tr>
+      <td>3,2</td>
+      <td>3,3</td>
+  </tr>
+</table> -->
+<!-- AKHIR MERGING -->
+
+<!-- FORM -->
+ 
+<!-- AKHIR FORM -->
+
+
+</body>
+</html>
